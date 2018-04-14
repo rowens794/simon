@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+:root {
+  --red: #a30000;
+  --blue: #2274a5;
+  --grey: #212922;
+  --yellow: #faa916;
+  --green: #679436;
+  --circleSize: 500px;
+  --buttonSize: 230px;
+  --centerSize: 300px;
+}
+
+#gameBorder{
+  width: var(--circleSize);
+  height: var(--circleSize);
+  background-color: var(--grey);
+  border-radius: 250px;
+  margin: auto;
+}
+
+#green{
+  width: var(--buttonSize);
+  height: var(--buttonSize);
+  background-color: var(--green);
+  border-radius: var(--buttonSize) 0px 0px 0px;
+  margin: 10px;
+}
+
+#red{
+  width: var(--buttonSize);
+  height: var(--buttonSize);
+  background-color: var(--red);
+  border-radius: 0px var(--buttonSize) 0px 0px;
+}
+
+#yellow{
+  width: var(--buttonSize);
+  height: var(--buttonSize);
+  background-color: var(--yellow);
+  border-radius: 0px 0px 0px var(--buttonSize);
+  margin-left: 10px;
+}
+
+#blue{
+  width: var(--buttonSize);
+  height: var(--buttonSize);
+  background-color: var(--blue);
+  border-radius: 0px 0px var(--buttonSize) 0px;
+}
+
+#floatingCenter{
+  width: var(--centerSize);
+  height: var(--centerSize);
+  background-color: var(--grey);
+  border-radius: var(--centerSize);
+  margin: -390px 100px;
+  display: table;
+}
+
+.innerTable{
+  font-size:40px;
+}
+
+#innerCenter{
+  width: 280px;
+  height: 280px;
+  background-color: #E5DEBC;
+  border-radius: 250px;
+  margin: 10px auto;
+}
+
+.title{
+  font-size: 50px;
+  font-family: 'Alfa Slab One', cursive;
+  margin: 20px 0px 0px 50px;
+}
+
+#counter{
+  width: 60px;
+  height: 60px;
+  background-color: #350000;
+  border: 2px solid var(--grey);
+  border-radius: 5px;
+  margin: 0px 0px 0px 20px;
+  font-size: 60px;
+  color: red;
+  text-align: center;
+  font-family: 'VT323', monospace;
+  
+}
+
+#strict{
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border: 5px solid var(--grey);
+  border-radius: 20px;
+  margin: 10px 0px 0px 30px; 
+}
+
+
+#start{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border: 5px solid var(--grey);
+  border-radius: 20px;
+  margin: 20px 0px 0px 30px; 
+}
+
+.strictLightSystemOff{
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  border: 3px solid var(--grey);
+  border-radius: 10px;
+  margin: 0px 0px 0px 43px; 
+}
+
+.strictLightOff{
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border: 3px solid var(--grey);
+  border-radius: 10px;
+  margin: 0px 0px 0px 43px; 
+}
+
+.strictLightOn{
+  width: 5px;
+  height: 5px;
+  background-color: green;
+  border: 3px solid var(--grey);
+  border-radius: 10px;
+  margin: 0px 0px 0px 43px; 
+}
+
+.scoreText{
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Alfa Slab One', cursive;
+  margin: 0px 0px 0px 15px;
+}
+
+.startText{
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Alfa Slab One', cursive;
+  margin: 5px 0px 0px 30px;
+}
+
+.offOnRow{
+  margin: 10px 0px 0px 67px;
+}
+
+.offOn{
+  font-size: 16px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.switchBackground{
+  width: 60px;
+  height: 28px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.switchToggleOff{
+  width: 25px;
+  height: 25px;
+  background-color: var(--blue);
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+  margin: 0px 0px 0px 0px;
+}
+
+.switchToggleOn{
+  width: 25px;
+  height: 25px;
+  background-color: var(--blue);
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+  margin: 0px 0px 0px 32px;
+}

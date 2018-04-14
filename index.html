@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="container">
+  <div id="gameBorder">
+    <table >
+      <tbody>
+        <tr>
+          <td><div id="green"></div></td>
+          <td><div id="red"></div></td>
+        </tr>
+        <tr>
+          <td><div id="yellow"></div></td>
+          <td><div id="blue"></div></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <div id="floatingCenter">
+      <div id="innerCenter">
+        
+        <table id="innerTable">
+          <tbody>
+            
+            <tr>
+              <td><p class="title">Simon<p></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <table >
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div id="counter"></div>
+                        <p class="scoreText">score</p>
+                      </td>
+                      
+                      <td>
+                        <div id="start"></div>
+                        <p class="startText">start</p>
+                      </td>
+                      
+                      <td> 
+                        <div id="strictLight" class="strictLightSystemOff"></div>
+                        <div id="strict"></div>
+                        <p class="startText">strict</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            
+            <tr>
+              <td> 
+              <table class="offOnRow">
+                <tbody>
+                  <tr>
+                    <td class="offOn">OFF</td>
+                    <td>
+                      <div class="switchBackground">
+                        <div id="switch" class="switchToggleOff">
+                          
+                        </div>
+                      </div>
+                    </td>
+                    <td class="offOn">ON</td>
+                  </tr>
+                </tbody>
+              </table>
+              </td>
+            </tr>
+            
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script  src="js/index.js"></script>
+
+</body>
+
+</html>
